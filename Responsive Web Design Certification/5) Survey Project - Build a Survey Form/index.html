@@ -1,1 +1,49 @@
+<!DOCTYPE HTML>
+<HTML lang="en">
 
+<head>
+<meta charset="UTF-8">
+<title>Survey Form</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<h1 id="title">
+Free Code Camp Survey Form
+</h1>
+<p id="description">
+We appreitate you for taking your time to complete this form!
+</p>
+<form id="survey-form" method="https://survey-form.freecodecamp.rocks/">
+
+  <label for="name" id="name-label">Enter your Name: <input type="text" id="name" placeholder="Enter your name" required/></label>
+
+ <label for="email" id="email-label"> Enter your Email Address: <input type="email" placeholder="Enter your email" id="email" required/></label>
+
+<label for="number" id="number-label">Enter your Age: <input type="number" id="number" min="15" max="125"placeholder="Age"/></label>
+<select id="dropdown">
+  <option id="1">Select one</option>
+  <option id="2">Value 2</option>
+    <option id="3">Value 3</option>
+      <option id="4">Value 4</option>
+
+
+</select>
+
+<p>Would you recommend this material?</p>
+<label for="recomend"><input type="radio" id="recomend" name="recommendation" value="Perfect">Yes</label>
+
+<label for="recommend"><input type="radio" id="recommend" name="recommendation" value="Zero">Maybe</label>
+
+<p>Which one is your prefered course?</p>
+<label for="checboxes"><input type="checkbox" id="checkboxes" name="Interst" value="1010"/> Front-End Projects</label>
+
+<label for="checboxe"><input type="checkbox" id="checkboxe" name="Interst" value="100"/> Back-End Projects</label>
+
+<textarea>Any additional comment</textarea>
+<input type="submit" id="submit"/>
+</form>
+
+</body>
+
+</HTML>
