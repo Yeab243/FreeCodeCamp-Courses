@@ -1,1 +1,36 @@
+body{
+  background-color: #d3d3d3;
+}
 
+@media only screen and (max-width: 320px) {
+      .navbar {
+        background-color: blue;
+      }
+    }
+    .navbar {
+      position: fixed;
+      top: 0;
+      right: 200px;
+    }
+    #header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .premium-materials {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+.amazon-prime-excellence, .form, .demovid{
+  text-align:center;
+}
+
+iframe{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+    
