@@ -1,1 +1,65 @@
+body {
+  background-color: #1a1a1a;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 44px;
+  color: white;
+}
+
+.wrapper {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper h2 {
+  margin: 0;
+  font-size: 36px;
+}
+
+.break-session-length {
+  display: flex;
+  width: 700px;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+button {
+  border: none;
+  padding: 12px 20px;
+  font-size: 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+div > button {
+  color: white;
+  background-color: #4caf50;
+}
+
+div button:nth-child(2) {
+  color: #000;
+  background-color: #ffc107;
+}
+
+strong {
+  margin: 0 10px;
+}
+
+.timer {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+  margin: 20px 0;
+  padding-top: 20px;
+  background-color: #333;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.timer-wrapper > button {
+  margin-left: 20px;
+  padding: 10px 18px;
+}
 
