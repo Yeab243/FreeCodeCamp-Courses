@@ -1,2 +1,1 @@
-# FreeCodeCamp-Courses
-Welcome to the FreeCodeCamp Courses Practice and Projects repository! I designed this repo to provide a platform for practicing the coding courses offered by FreeCodeCamp and completing the associated projects.
+Explore a range of full-stack projects showcasing my skills in both front-end and back-end development, employing various technologies and frameworks.
